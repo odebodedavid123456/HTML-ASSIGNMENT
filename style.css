@@ -1,0 +1,134 @@
+body {
+    font-family: roboto;
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 50px;
+    padding: 50px;
+    font-family: roboto;
+}
+
+.navbar {
+    background-color: lightgrey;
+    padding: 50px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+
+.navbar ul li a:hover {
+    color: gray;
+}
+
+.main-section {
+    margin: 30px auto;
+    margin-left: 50px;
+}
+
+.home-section h1 {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: darkblue;
+}
+
+.about-section p {
+    font-size: 20px;
+    line-height: 8px;
+}
+
+.about-section ul {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.work-section h3 {
+    color: darkblue;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.work-section table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.work-section table th {
+    color: blue;
+}
+
+.work-section table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.resume-section h3 {
+    color: darkblue;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.resume-section p {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+h4 {
+    color: darkblue;
+    font-size: 25px;
+    margin-top: 30px;
+}
+form label {
+    display: block;
+    margin-top: 1em;
+    font-weight: 700;
+}
+form input, form textarea {
+    width: 88%;
+    padding: 0.5em;
+    margin-top: 0.3em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.7em 2em;
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+form button:hover {
+    color: black;
+}
+
+.footer-section {
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+}
